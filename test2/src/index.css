@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.add-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.form-container {
+  width: 300px;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.btn-create {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
